@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Node JS Server is  running at http://${hostname}:${port}/`);
+  console.log(`재밌는 오픈소스소프트웨어 http://${hostname}:${port}/`);
 });
 
 module.exports = server;
